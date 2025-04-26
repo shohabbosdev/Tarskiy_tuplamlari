@@ -3,7 +3,7 @@ from time import *
 
 set_page_config("Tarskiy to'plamlari",'⚙️', 'wide', 'expanded')
 title("Tarskiy-Kuratskiy to'plamlari (Sonning bo'luvchilarini topish dasturi)")
-n=select_slider("Sonlarni kiriting", options=[i for i in range(1_000_001)])
+n=select_slider("Sonlarni kiriting", options=[i for i in range(1_0001)])
 
 tab1,tab2 = tabs(["1-oyna Sonlarning bo'luvchilari","2-oyna Murakkab sonlar"])
 
